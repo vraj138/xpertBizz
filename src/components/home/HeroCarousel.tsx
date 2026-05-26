@@ -16,21 +16,21 @@ interface Slide {
 const slides: Slide[] = [
   {
     title: "Expert HR Recruitment",
-    description: "We specialize in temporary, permanent, and contract staffing across industries such as healthcare, IT, engineering, and administrative support. Our goal is to take the stress out of recruiting by connecting you with skilled professionals who fit your company's culture and business needs.",
+    description: "We specialize in temporary, permanent, and contract staffing across industries such as IT, Commercial Construction, Healthcare, Engineering, and Administrative Support. Our goal is to take the stress out of recruiting by connecting you with skilled professionals who fit your company's culture and business needs.",
     cta: "Learn More",
     link: "/services/hr-recruitment",
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop",
   },
   {
     title: "Result-Driven Services",
-    description: "We provide expert, result-driven support in project management, helpdesk, accounting, IT, and managed services, helping small and medium-sized businesses operate smoothly, stay efficient, and grow with confidence.",
+    description: "We provide expert, result-driven support in IT, Commercial Concrete, Construction, Project Management, Helpdesk, Accounting,  and Managed Services, helping small and medium-sized businesses operate smoothly, stay efficient, and grow with confidence.",
     cta: "Learn More",
     link: "/services/result-driven",
     image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
   },
   {
-    title: "Empowering Your Digital Transformation",
-    description: "We help businesses embrace digital transformation with expert guidance and end-to-end support, migrating legacy systems and ERP platforms to modern cloud environments to boost speed, efficiency, and long-term scalability.",
+    title: "Building Success with Top Civil & Concrete Construction Talent",
+    description: "We specialize in staffing civil construction and commercial concrete projects with seasoned, high-performing professionals committed to delivering lasting success on every job.",
     cta: "Learn More",
     link: "/services/digital-transformation",
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",

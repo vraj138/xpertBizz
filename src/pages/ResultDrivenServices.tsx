@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/home/ContactForm";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Users } from "lucide-react";
+import { ChevronDown, Construction, ConstructionIcon, LucideConstruction, Users } from "lucide-react";
 import { Briefcase, Headphones, Calculator, FileText, Database } from "lucide-react";
 import { useState } from "react";
 
@@ -16,7 +16,7 @@ const ResultDrivenServices = () => {
         <section className="mb-12">
           <h1 className="text-4xl font-bold text-center mb-4">Result-Driven Services</h1>
           <p className="text-lg text-muted-foreground text-center max-w-4xl mx-auto mb-12">
-            We provide expert, result-driven support in project management, helpdesk, accounting, IT, and managed services, helping small and medium-sized businesses operate smoothly, stay efficient, and grow with confidence.
+            We provide expert, result-driven support in IT, Commercial Concrete, Construction, Project Management, Helpdesk, Accounting,  and Managed Services, helping small and medium-sized businesses operate smoothly, stay efficient, and grow with confidence.
           </p>
         </section>
 
@@ -30,6 +30,16 @@ const ResultDrivenServices = () => {
               </div>
               <p className="text-muted-foreground">
                 Our project management support ensures every initiative is delivered on time, within scope, and aligned with your business goals. We apply proven methodologies and clear communication to streamline collaboration and reduce risk strategy. From planning to execution, our experts keep your projects on track for measurable success.
+              </p>
+            </div>
+
+            <div className="bg-card border rounded-lg p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <Construction className="h-8 w-8 text-primary" />
+                <h3 className="text-2xl font-semibold">Commerical Construction Hiring Stuff</h3>
+              </div>
+              <p className="text-muted-foreground">
+                Our hiring team understands the unique challenges of commercial and retail construction. We partner with your hiring managers to deliver candidates with specialized experience tailored to each project.
               </p>
             </div>
 
@@ -73,15 +83,18 @@ const ResultDrivenServices = () => {
               </p>
             </div>
 
-            <div className="bg-card border rounded-lg p-6">
-              <div className="flex items-center gap-3 mb-4">
-                <FileText className="h-8 w-8 text-primary" />
-                <h3 className="text-2xl font-semibold">Data Entry</h3>
+            <div className="md:col-span-2 flex justify-center">
+              <div className="bg-card border rounded-lg p-6 max-w-xl w-full">
+                <div className="flex items-center gap-3 mb-4">
+                  <FileText className="h-8 w-8 text-primary" />
+                  <h3 className="text-2xl font-semibold">Data Entry</h3>
+                </div>
+                <p className="text-muted-foreground">
+                  We provide accurate and reliable data entry support to help businesses maintain organized and UpToDate records. Our team handles data input, validation, and formatting with speed and precision, reducing errors and saving valuable time. With dedicated support, your business can focus on core operations while we manage your critical data efficiently.
+                </p>
               </div>
-              <p className="text-muted-foreground">
-                We provide accurate and reliable data entry support to help businesses maintain organized and UpToDate records. Our team handles data input, validation, and formatting with speed and precision, reducing errors and saving valuable time. With dedicated support, your business can focus on core operations while we manage your critical data efficiently.
-              </p>
             </div>
+
           </div>
         </section>
 

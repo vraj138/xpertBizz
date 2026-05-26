@@ -18,7 +18,7 @@ const HRRecruitment = () => {
             <h1 className="text-4xl font-bold text-foreground">Expert HR Recruitment</h1>
           </div>
           <p className="text-lg text-muted-foreground mb-6">
-            We specialize in temporary, permanent, and contract staffing across industries such as healthcare, IT, engineering, and administrative support. Our goal is to take the stress out of recruiting by connecting you with skilled professionals who fit your company's culture and business needs.
+            We specialize in temporary, permanent, and contract staffing across industries such as IT, Commercial Construction, Healthcare, Engineering, and Administrative Support. Our goal is to take the stress out of recruiting by connecting you with skilled professionals who fit your company's culture and business needs.
           </p>
           <div className="bg-muted/50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-semibold mb-4">Here's what sets us apart:</h3>

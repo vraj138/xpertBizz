@@ -445,7 +445,7 @@ const Careers = () => {
             <div className="max-w-4xl mx-auto space-y-8">
               <div className="prose max-w-none">
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  At XpertBizz, we are always looking for talented and passionate professionals to join our growing team. We offer exciting career opportunities across all domains, including <strong className="text-foreground">Project Management, IT Support, Helpdesk Operations, Accounting, Billing, Data Entry, Database Management, Software Development, and HR Recruitment</strong>.
+                  At XpertBizz, we are always looking for talented and passionate professionals to join our growing team. We offer exciting career opportunities across all domains, including <strong className="text-foreground">Project Management, Engineering Management, Commercial Site Management, IT Support, Helpdesk Operations, Accounting, Billing, Data Entry, Database Management, Software Development, and HR Recruitment</strong>.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                   Our work environment is dynamic, inclusive, and collaborative, fostering innovation and professional growth. We believe in empowering our employees with the tools, training, and mentorship they need to excel in their roles and make a meaningful impact.

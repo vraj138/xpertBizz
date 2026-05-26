@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Linkedin } from "lucide-react";
 import logo from "@/assets/xpertbizz-logo.png";
+import sdoLogo from "@/assets/SDO-logo.jpg";
 
 const Footer = () => {
   return (
@@ -10,15 +11,27 @@ const Footer = () => {
           {/* Logo and Tagline */}
           <div className="space-y-4">
             <Link to="/" className="inline-block">
-              <img 
-                src={logo} 
-                alt="XpertBizz - Expect Excellence" 
+              <img
+                src={logo}
+                alt="XpertBizz - Expect Excellence"
                 className="h-12 w-auto brightness-0 invert"
               />
             </Link>
             <p className="text-gray-400 text-sm">
               Empowering Your Digital Transformation
             </p>
+            <div className="pt-4">
+              <p className="text-xs uppercase tracking-wide text-gray-500 mb-2">
+                Certifications & Affiliations
+              </p>
+              <div className="bg-white rounded-md p-2 inline-block">
+                <img
+                  src={sdoLogo}
+                  alt="Massachusetts Supplier Diversity Office"
+                  className="h-10 w-auto object-contain"
+                />
+              </div>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -43,6 +56,11 @@ const Footer = () => {
               <li>
                 <Link to="/contact" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Contact Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/privacy-policy-sms-terms" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Privacy & Terms
                 </Link>
               </li>
             </ul>
@@ -82,7 +100,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-sm text-gray-400">
-            © 2025 XpertBizz. All Rights Reserved.
+            © {new Date().getFullYear()} XpertBizz. All Rights Reserved.
           </p>
         </div>
       </div>

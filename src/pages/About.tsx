@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Users, Briefcase, CheckCircle } from "lucide-react";
+import sdoLogo from "@/assets/SDO-logo.jpg";
 
 const About = () => {
   return (
@@ -36,7 +37,7 @@ const About = () => {
                 <div>
                   <h2 className="text-2xl font-semibold mb-4">What We Do</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    Beyond staffing, we provide comprehensive support services including <strong className="text-foreground">Project Management, Helpdesk Operations, Accounting, Billing, IT Support, Managed Services, Data Entry, and Database/Application Support</strong>. Our teams ensure seamless operations, from business process analysis to database management, software delivery support, and data analysis.
+                    Beyond staffing, we provide comprehensive support services including <strong className="text-foreground">Project Management, Engineering Management, Commercial Site Management, Helpdesk Operations, Accounting, Billing, IT Support, Managed Services, Data Entry, and Database/Application Support</strong>. Our teams ensure seamless operations, from business process analysis to database management, software delivery support, and data analysis.
                   </p>
                 </div>
               </div>
@@ -51,6 +52,27 @@ const About = () => {
                   <p className="text-muted-foreground leading-relaxed">
                     We combine industry knowledge, advanced tools, and a client-first approach to deliver reliable, high-quality support that enhances productivity, drives efficiency, and fosters business growth.
                   </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Certification / Supplier Diversity */}
+            <div className="bg-card border rounded-lg p-8">
+              <div className="text-center">
+                <h2 className="text-2xl font-semibold mb-4">
+                  Supplier Diversity
+                </h2>
+
+                <p className="text-muted-foreground leading-relaxed mb-6 max-w-2xl mx-auto">
+                  XpertBizz is committed to supporting inclusive business opportunities and strengthening partnerships across Massachusetts communities.
+                </p>
+
+                <div className="inline-flex items-center justify-center rounded-lg border bg-white p-4 shadow-sm">
+                  <img
+                    src={sdoLogo}
+                    alt="Massachusetts Supplier Diversity Office"
+                    className="max-h-24 w-auto object-contain"
+                  />
                 </div>
               </div>
             </div>
