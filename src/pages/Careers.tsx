@@ -393,7 +393,7 @@ const Careers = () => {
 
     try {
       // Send to your backend API
-      const response = await fetch('https://www.xpertbizz.com/api/career-application.php', {
+      const response = await fetch('https://xpertbizz.com/api/career-application.php', {
         method: 'POST',
         body: submitData,
       });
